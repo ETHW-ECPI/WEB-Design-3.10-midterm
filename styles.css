@@ -50,3 +50,25 @@ nav ul li:hover {
    background-color: #555;
    transition: 0.3s;
 }
+
+table {
+   width: 100%;
+   border-collapse: collapse;
+}
+
+th, td {
+   border: 1px solid #ccc;
+   padding: 12px;
+   text-align: left;
+}
+
+th {
+   background-color: #444;
+   color: white;
+}
+
+tfoot {
+   text-align: center;
+   font-style: italic;
+   border-top: 1px solid #ccc;
+}
