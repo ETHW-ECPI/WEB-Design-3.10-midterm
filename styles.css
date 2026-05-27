@@ -26,17 +26,14 @@ body {
    padding: 0px;
 }
 
-nav {
+nav ul {
    display: flex;
    justify-content: center;
-}
-
-nav ul {
    list-style-type: none;
    padding: 0px;
 }
 
-nav ul li {
+nav ul li a{
    margin: 0px 15px;
    color: white;
    background-color: #333;
@@ -46,7 +43,7 @@ nav ul li {
    border-radius: 4px;
 }
 
-nav ul li:hover {
+nav ul li a:hover {
    background-color: #555;
    transition: 0.3s;
 }
@@ -54,6 +51,11 @@ nav ul li:hover {
 table {
    width: 100%;
    border-collapse: collapse;
+}
+
+caption {
+   font-style: bold;
+   font-size: medium;
 }
 
 th, td {
