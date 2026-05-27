@@ -12,6 +12,10 @@ main {
    margin: auto;
 }
 
+h1 {
+   text-align: center;
+}
+
 section {
    padding: 20px;
    background-color: white;
